@@ -1,6 +1,7 @@
 
 import './App.css';
-import Welcome from './components/Welcome';
+import Clock from './components/Clock';
+// import Welcome from './components/Welcome';
 
 function App() {
   const userInfo = {
@@ -9,11 +10,12 @@ function App() {
   }
   
   return (
-    <div className="App">
-      <Welcome user='Ali'/>
-      <Welcome user='Ekber'/>
-      <Welcome user='Sen'/>
-    </div>
+    <Clock />
+  //  <div className="App">
+  //     <Welcome user='Ali'/>
+  //     <Welcome user='Ekber'/>
+  //     <Welcome user='Sen'/>
+  //   </div>
   );
 }
 
