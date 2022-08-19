@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import Clock from './components/Clock';
-import Login from './components/Login';
+import Form from './components/Form';
+// import Clock from './components/Clock';
+// import Login from './components/Login';
 // import Welcome from './components/Welcome';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
   
   return (
  <div>
-  <Login/>
+  {/* <Login/> */}
+  <Form/>
  </div>
  
     //  <div> 
